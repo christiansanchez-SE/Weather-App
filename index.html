@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/500d37e25d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="superContainer">
+
+            <div class="header">
+                <h1>WeatherRide Station</h1>
+            </div>
+    
+            <div class="mainContainer">
+    
+                <div class="secondContainer">
+    
+                    <!-- First Weather Container -->
+                    <div class="searchContainer">
+                        <button id="searchBtn">Search</button>
+                        <input type="text" id="city" placeholder="Enter city a name" value="Tokyo">
+                    </div>
+                    <!-- Img -->
+                    <img class="weatherIcon">
+                    <div class="weatherContainer">
+                        <div id="result"></div>
+                        <div class="verticalLine"></div>
+                        <div id="resultTwo"></div>
+                    </div>
+                    <!-- Description -->
+                    <div class="descriptionContainer">
+                        Your ultimate companion for adventure sports! <br>
+                        With real-time updates on temperature, wind speed, precipitation, and more. <br>
+                        WeatherRide is the must-have tool to maximize your outdoor experience.
+                    </div>
+        
+                </div>
+
+                    <button class="scrollUp" onclick="toggleButton()">Scroll Up</button>
+
+                    <br>
+
+                    <button class="button1" type="button" onclick="toggleBtn()" id="btn">
+                        <span></span>
+                    </button>
+                    
+                </div>
+
+                
+        </div>
+
+
+        
+        <script src="data.mjs" type="module" async defer></script>
+    </body>
+</html>
