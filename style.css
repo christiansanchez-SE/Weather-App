@@ -1,0 +1,216 @@
+body{
+    font-family: sans-serif;
+    background-color: #104F55;
+    background-image: url(https://windowscustomization.com/wp-content/uploads/2018/08/fire-watch.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.superContainer{
+    /* border: solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 2em;
+    margin: 1em;
+    height: 100%;
+    max-width: auto;
+} 
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #2b3e61b6;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 1000px;
+    /* transform: translateX(450px); */
+}
+
+
+.mainContainer{
+    /* border: solid green; */
+    background-color: #2b3e61b6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 1em;
+    height: 100%;
+    width: 800px;
+    /* transform: translateX(500px); */
+}
+
+.secondContainer{
+    /* border: solid yellow; */
+    background-color: #415A77;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 1em;
+}
+
+/* --- This is the body --- */
+.weatherContainer{
+    /* border: solid black; */
+    background-color:  #ffffff44;
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    height: auto;
+    max-width: 1000px;
+}
+
+/* --- This is the search container --- */
+.searchContainer{
+    /* border: solid red; */
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em;
+    width: 100%;
+    max-width: 540px;
+}
+
+.searchContainer input[type="text"] {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    outline: none;
+}
+
+.searchContainer button {
+    background-color: rgb(254,81,99);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* --- The Image --- */
+.weatherIcon{
+    /* border: solid purple; */
+    background-color:  #ffffff44;
+    border-radius: 15px;
+    margin: 1em;
+    height: 300px;
+    width: 300px;
+}
+
+.verticalLine{
+    border-left:3px solid rgba(0, 0, 0, 0.37);
+    border-radius: 15px;
+    height: 200px;
+}
+
+/* --- The results --- */
+#result{
+    /* border: solid blue; */
+    background-color: #79797959;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content:flex-start;
+    margin: 1em;
+    padding: 0.5em;
+    width: 100%;
+    width: 250px;
+    font-size: 1.2em;
+    line-height: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+#resultTwo{
+    /* border: solid blue; */
+    background-color: #79797959;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content:flex-start;
+    margin: 1em;
+    padding: 0.5em;
+    width: 100%;
+    width: 250px;
+    font-size: 1.2em;
+    line-height: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
+.descriptionContainer{
+    background-color:  #ffffff44;
+    border-radius: 15px;
+    margin: 1em;
+    height: 200px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.scrollUp{
+    background-color: rgb(254,81,99);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------------------------ */
+
+.button1 {
+    background: #efefef;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .button1 span {
+    display: block;
+    background-color: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: -2px;
+    transition: background 0.5s, margin-left 0.5s;
+  }
+  
+  .active {
+    background-color: green;
+  }
+  
+  .active span {
+    background: #fff;
+    margin-left: 24px;
+  }
